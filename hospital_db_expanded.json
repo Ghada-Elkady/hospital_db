@@ -1,0 +1,138 @@
+{
+    "patients": [
+        {
+            "_id": "573a1390f29313caabcd42e1",
+            "name": "Ahmed Ali",
+            "age": 35,
+            "gender": "Male",
+            "phone": "01012345678",
+            "condition": "Diabetes",
+            "admission_date": "2025-02-15",
+            "room": "101A"
+        },
+        {
+            "_id": "573a1390f29313caabcd42e2",
+            "name": "Sara Mohamed",
+            "age": 29,
+            "gender": "Female",
+            "phone": "01098765432",
+            "condition": "Flu",
+            "admission_date": "2025-03-01",
+            "room": "202B"
+        },
+        {
+            "_id": "573a1390f29313caabcd42e3",
+            "name": "Khaled Hassan",
+            "age": 42,
+            "gender": "Male",
+            "phone": "01156783456",
+            "condition": "Hypertension",
+            "admission_date": "2025-02-20",
+            "room": "303C"
+        }
+    ],
+    "doctors": [
+        {
+            "_id": "573a1390f29313caabcd43e1",
+            "name": "Dr. Hossam Khaled",
+            "specialization": "Cardiology",
+            "phone": "01122334455",
+            "years_of_experience": 15,
+            "hospital_section": "Heart Unit"
+        },
+        {
+            "_id": "573a1390f29313caabcd43e2",
+            "name": "Dr. Mona Samir",
+            "specialization": "Dermatology",
+            "phone": "01234567890",
+            "years_of_experience": 10,
+            "hospital_section": "Skin Care"
+        },
+        {
+            "_id": "573a1390f29313caabcd43e3",
+            "name": "Dr. Amr Adel",
+            "specialization": "Neurology",
+            "phone": "01011223344",
+            "years_of_experience": 20,
+            "hospital_section": "Brain & Nerves"
+        }
+    ],
+    "appointments": [
+        {
+            "_id": "573a1390f29313caabcd44e1",
+            "patient_id": "573a1390f29313caabcd42e1",
+            "doctor_id": "573a1390f29313caabcd43e1",
+            "date": "2025-03-10",
+            "time": "10:30 AM",
+            "status": "Scheduled"
+        },
+        {
+            "_id": "573a1390f29313caabcd44e2",
+            "patient_id": "573a1390f29313caabcd42e2",
+            "doctor_id": "573a1390f29313caabcd43e2",
+            "date": "2025-03-12",
+            "time": "02:00 PM",
+            "status": "Scheduled"
+        },
+        {
+            "_id": "573a1390f29313caabcd44e3",
+            "patient_id": "573a1390f29313caabcd42e3",
+            "doctor_id": "573a1390f29313caabcd43e3",
+            "date": "2025-03-15",
+            "time": "09:00 AM",
+            "status": "Completed"
+        }
+    ],
+    "medications": [
+        {
+            "_id": "573a1390f29313caabcd45e1",
+            "name": "Panadol",
+            "usage": "Pain Relief",
+            "quantity": 100,
+            "expiry_date": "2026-05-10",
+            "manufacturer": "GSK"
+        },
+        {
+            "_id": "573a1390f29313caabcd45e2",
+            "name": "Insulin",
+            "usage": "Diabetes",
+            "quantity": 50,
+            "expiry_date": "2027-08-15",
+            "manufacturer": "Novo Nordisk"
+        },
+        {
+            "_id": "573a1390f29313caabcd45e3",
+            "name": "Aspirin",
+            "usage": "Blood Thinner",
+            "quantity": 200,
+            "expiry_date": "2025-12-30",
+            "manufacturer": "Bayer"
+        }
+    ],
+    "billing": [
+        {
+            "_id": "573a1390f29313caabcd46e1",
+            "patient_id": "573a1390f29313caabcd42e1",
+            "amount": 200,
+            "status": "Paid",
+            "insurance": "Yes",
+            "payment_method": "Credit Card"
+        },
+        {
+            "_id": "573a1390f29313caabcd46e2",
+            "patient_id": "573a1390f29313caabcd42e2",
+            "amount": 150,
+            "status": "Unpaid",
+            "insurance": "No",
+            "payment_method": "Cash"
+        },
+        {
+            "_id": "573a1390f29313caabcd46e3",
+            "patient_id": "573a1390f29313caabcd42e3",
+            "amount": 350,
+            "status": "Paid",
+            "insurance": "Yes",
+            "payment_method": "Bank Transfer"
+        }
+    ]
+}
