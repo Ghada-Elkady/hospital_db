@@ -1,6 +1,3 @@
-انسخي الكود ده واحطيه في **README.md**:  
-
-```markdown
 # Node.js Hospital API
 
 A RESTful API for managing hospital data, built with Node.js, Express, and MongoDB.
