@@ -61,6 +61,3 @@ Feel free to fork this project and submit pull requests.
 ## 📜 License
 This project is licensed under the MIT License.
 ```
-
-ده شامل كل التفاصيل المهمة زي **طريقة التثبيت، الاستخدام، الـ API Endpoints، والبيئة (Environment Variables)**.  
-لو عايزة تضيفي حاجة أو تعدلي حاجة، قوليلي! 🚀😊
